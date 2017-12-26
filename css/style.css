@@ -8,8 +8,21 @@ body {
   padding-top: 54px;
 }
 
+.navbar-light {
+	background-color: #e3f2fd;
+}
+
+.gcilogo {
+	padding-right: 10px;
+}
+
+.nav-link {
+	
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
 }
+
