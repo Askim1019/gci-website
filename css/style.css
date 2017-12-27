@@ -6,7 +6,10 @@
 
 body {
   padding-top: 54px;
-  background-color: #a9aaaa;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Navigation bar styling is here */
@@ -23,6 +26,10 @@ body {
 	font-size: 20px;
 }
 
+.navbar-nav > li > a:hover {
+	background-color: rgba(127, 129, 135, 0.3);
+}
+
 .gcilogo {
 	padding-right: 10px;
 }
@@ -31,24 +38,30 @@ body {
 /* Home Page Summary next to picture */
 .intro-summary {
 	font-family: 'Roboto:700', sans-serif;
-	font-weight: bold;
-	color: #585b5b;
+	font-weight: regular;
+	background-color: rgba(95, 104, 109, 0.5);
+	color: white;
 }
 
 .intro-summary h2 {
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: bold;	
-	color: black;			
+	color: white;
+	margin-top: 10px;		
+}
+
+.intro-summary a {
+	margin-bottom: 15px;
+	margin-left: 28%;
 }
 
 .card-body p {
-	color: black !important;
-
+	color: white !important;
 }
 
 /* Company divs linked to their information */
 .separator {
-	background-color: #8e9191;
+	background-color: rgba(58, 59, 61, 0.85);
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -62,9 +75,18 @@ body {
 	text-align: center;
 }
 
+.card-title {
+	color: white;
+}
+
 .partners-list {
 	list-style-type: none;
 	text-align: left;
+	color: white;
+}
+
+.divpanel {
+	height: 300px;
 }
 
 .divpanel:hover {
@@ -74,11 +96,11 @@ body {
 }
 
 .panel {
-	background: grey;
+	background: rgba(58, 59, 61, 0.85);
 }
 
 .panel:hover {
-	background: rgba(247, 249, 248, 0.8);
+	background: rgba(167, 171, 178, 0.75);
 }
 
 
