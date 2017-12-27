@@ -53,10 +53,6 @@ body {
 	font-weight: bold;
 }
 
-.panel {
-	background: rgba(247, 249, 248, 0.8);
-}
-
 .card-body h3 {
 	font-size: 25px;
 
@@ -71,7 +67,19 @@ body {
 	text-align: left;
 }
 
+.divpanel:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
+.panel {
+	background: grey;
+}
+
+.panel:hover {
+	background: rgba(247, 249, 248, 0.8);
+}
 
 
 
