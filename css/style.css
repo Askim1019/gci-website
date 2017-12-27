@@ -6,13 +6,21 @@
 
 body {
   padding-top: 54px;
-  background-color: #cedae2;
+  background-color: #a9aaaa;
 }
 
 /* Navigation bar styling is here */
 
 .navbar-light {
-	background-color: #53a9e2;
+	background-color: #f7f9f8;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 18px;
+}
+
+.navbar-light a {
+	font-weight: bold;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 20px;
 }
 
 .gcilogo {
@@ -20,18 +28,48 @@ body {
 }
 
 
+/* Home Page Summary next to picture */
+.intro-summary {
+	font-family: 'Roboto:700', sans-serif;
+	font-weight: bold;
+	color: #585b5b;
+}
+
+.intro-summary h2 {
+	font-size: 28px;
+	font-weight: bold;	
+	color: black;			
+}
+
+.card-body p {
+	color: black !important;
+
+}
 
 /* Company divs linked to their information */
 .separator {
-	background-color: #53a9e2;
+	background-color: #8e9191;
 	font-size: 25px;
 	font-weight: bold;
 }
 
-.card-body h3 {
-	font-size: 20px;
+.panel {
+	background: rgba(247, 249, 248, 0.8);
 }
 
+.card-body h3 {
+	font-size: 25px;
+
+}
+
+.card-footer {
+	text-align: center;
+}
+
+.partners-list {
+	list-style-type: none;
+	text-align: left;
+}
 
 
 
