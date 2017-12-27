@@ -44,10 +44,11 @@ body {
 }
 
 .intro-summary h2 {
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;	
 	color: white;
-	margin-top: 10px;		
+	margin-top: 10px;
+	font-family: 'Lato', sans-serif;		
 }
 
 .intro-summary a {
@@ -56,7 +57,10 @@ body {
 }
 
 .card-body p {
-	color: white !important;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+	font-family: roboto;
 }
 
 /* Company divs linked to their information */
@@ -77,6 +81,7 @@ body {
 
 .card-title {
 	color: white;
+	font-family: 'Russo One', sans-serif;
 }
 
 .partners-list {
@@ -86,7 +91,7 @@ body {
 }
 
 .divpanel {
-	height: 300px;
+	height: 350px;
 }
 
 .divpanel:hover {
