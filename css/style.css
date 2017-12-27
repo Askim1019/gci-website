@@ -6,15 +6,38 @@
 
 body {
   padding-top: 54px;
+  background-color: #cedae2;
 }
 
+/* Navigation bar styling is here */
+
 .navbar-light {
-	background-color: #e3f2fd;
+	background-color: #53a9e2;
 }
 
 .gcilogo {
 	padding-right: 10px;
 }
+
+
+
+/* Company divs linked to their information */
+.separator {
+	background-color: #53a9e2;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.card-body h3 {
+	font-size: 20px;
+}
+
+
+
+
+
+
+
 
 @media (min-width: 992px) {
   body {
