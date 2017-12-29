@@ -23,15 +23,15 @@
 	height: 400px;
 	position: relative;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 }
 
 
 /* Navigation bar styling is here */
 
 .navbar-light {
-	background-color: #f7f9f8;
+	background-color: white;
 	font-family: 'Quattrocento Sans', sans-serif;
 	font-size: 18px;
 }
@@ -112,7 +112,7 @@
 
 .intro-summary {
 	font-family: 'Roboto:700', sans-serif;
-	font-weight: regular;
+	font-weight: normal;
 	background-color: rgba(95, 104, 109, 0.5);
 	color: white;
 }
@@ -194,23 +194,50 @@
 /* Start of services page */
 
 .service-div {
-	background: rgba(38, 40, 43, 0.6);
- 	top: 200px;
- 	left: 600px;
-	position: absolute;
+	background: rgba(38, 40, 43, 0.2);
+	margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .service-header {
 	color: white;
-
+	
 }
 
 
 .service-content {
-	height: 500px;
+	height: 600px;
+	text-align: center;
 }
 
+.service-content h2 {
+	margin-top: 20px;
+}
 
+.service-content p {
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+.service-content li {
+	text-align: left;
+}
+
+#history {
+	background: rgba(21, 75, 163, 0.5);
+}
+
+#service-offer {
+	background: white;
+}
+
+#products {
+	background: rgba(21, 75, 163, 0.5);
+}
 
 @media (min-width: 992px) {
   body {
