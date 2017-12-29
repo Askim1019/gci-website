@@ -1,16 +1,32 @@
-/*!
- * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
- */
 
-body {
+.testing {
+	border: 5px solid red;
+} 
+
+/* Body backgrounds for each page */
+
+.homebg {
   padding-top: 54px;
   background-image: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
+
+.image-services-bg {
+	background: url('../images/suit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	position: relative;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 
 /* Navigation bar styling is here */
 
@@ -92,6 +108,8 @@ body {
 
 
 /* Home Page Summary next to picture */
+
+
 .intro-summary {
 	font-family: 'Roboto:700', sans-serif;
 	font-weight: regular;
@@ -134,6 +152,11 @@ body {
 
 .card-footer {
 	text-align: center;
+	width: 100%;
+}
+
+.card-footer a {
+	display: inline-block;
 }
 
 .card-title {
@@ -170,6 +193,22 @@ body {
 
 /* Start of services page */
 
+.service-div {
+	background: rgba(38, 40, 43, 0.6);
+ 	top: 200px;
+ 	left: 600px;
+	position: absolute;
+}
+
+.service-header {
+	color: white;
+
+}
+
+
+.service-content {
+	height: 500px;
+}
 
 
 

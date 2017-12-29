@@ -1,4 +1,4 @@
-PE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -21,7 +21,7 @@ PE html>
 
   </head>
 
-  <body>
+  <body class="servicebg">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -34,13 +34,14 @@ PE html>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html" style="background-color: rgba(127, 129, 135, 0.3);">Services</a>
+              <a class="nav-link" href="services.html" style="background-color: rgba(127, 129, 135, 0.3);">Services<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropbtn">Partners</a>
+              <a class="nav-link dropbtn dropdown-toggle" data-toggle="dropdown">Partners</a>
               <div class="dropdown-content">
                 <a href="daemyung.html">DAE MYUNG</a>
                 <a href="daeyong.html">DAE YONG</a>
@@ -59,6 +60,34 @@ PE html>
         </div>
       </div>
     </nav>
+    <!-- Navigation end -->
+
+    
+    <!-- Page content -->
+      <div class="d-flex justify-content-center image-services-bg">
+        <div class="d-flex justify-content-center service-div">
+          <h1 class="service-header">One Company. Multiple Manufacturers.</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 service-content">
+          <h2>The Service We Offer</h2>
+        </div>  
+
+      </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Global Creative Innovation 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+      <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
   
