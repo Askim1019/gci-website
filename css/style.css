@@ -142,27 +142,6 @@
 /* Partner Page Summary next to picture */
 
 
-.intro-summary {
-	font-family: 'Roboto:700', sans-serif;
-	font-weight: normal;
-	background-color: rgba(95, 104, 109, 0.8);
-	color: white;
-}
-
-.intro-summary h2 {
-	font-size: 35px;
-	font-weight: bold;	
-	color: white;
-	margin-top: 10px;
-	font-family: 'Lato', sans-serif;
-	text-shadow: 10px 10px black;	
-}
-
-.intro-summary a {
-	margin-bottom: 15px;
-	margin-left: 28%;
-}
-
 .card-body p {
 	color: black;
 	margin-top: 20px;
@@ -172,7 +151,7 @@
 
 /* Company divs linked to their information */
 .separator {
-	background-color: /* rgba(58, 59, 61, 0.85) */ blue;
+	background-color: /* rgba(58, 59, 61, 0.85) */#044587;
 	font-size: 25px;
 	font-weight: bold;
 	color: white;
