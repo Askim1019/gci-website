@@ -20,7 +20,7 @@
 	background: url('../images/suit.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 400px;
+	height: 880px;
 	position: relative;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -65,55 +65,66 @@
     cursor: pointer;
 }
 
+/* Start of home page */
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+.service-div {
+	background: rgba(38, 40, 43, 0.2);
+	margin: auto;
+   width: 50%;
+   padding: 10px;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-	background-color: rgba(92, 186, 249,0.3);
-}
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: rgba(247, 249, 248, 0.9);
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: rgba(127, 129, 135, 0.3);
+.service-header {
+	color: white;
+	
 }
 
 
+.service-content {
+	height: 600px;
+	text-align: center;
+}
+
+.service-content h1 {
+	margin-top: 20px;
+}
+
+.service-content p {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+.service-content li {
+	text-align: left;
+}
+
+#history {
+	background: rgba(2, 95, 234, 0.8);
+}
+
+#service-offer {
+
+}
+
+#products {
+	background: rgba(2, 95, 234, 0.8);
+}
+
+#products-list {
+}
 
 
 
-
-
-
-
-/* Home Page Summary next to picture */
+/* Partner Page Summary next to picture */
 
 
 .intro-summary {
 	font-family: 'Roboto:700', sans-serif;
 	font-weight: normal;
-	background-color: rgba(95, 104, 109, 0.5);
+	background-color: rgba(95, 104, 109, 0.8);
 	color: white;
 }
 
@@ -191,56 +202,6 @@
 
 /* End of Home page styling */
 
-/* Start of services page */
-
-.service-div {
-	background: rgba(38, 40, 43, 0.2);
-	margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-.service-header {
-	color: white;
-	
-}
-
-
-.service-content {
-	height: 600px;
-	text-align: center;
-}
-
-.service-content h1 {
-	margin-top: 20px;
-}
-
-.service-content p {
-	text-align: left;
-	margin-top: 15px;
-	margin-left: 15px;
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-}
-
-.service-content li {
-	text-align: left;
-}
-
-#history {
-	background: rgba(21, 75, 163, 0.5);
-}
-
-#service-offer {
-	background: white;
-}
-
-#products {
-	background: rgba(21, 75, 163, 0.5);
-}
-
-#products-list {
-}
 
 @media (min-width: 992px) {
   body {
