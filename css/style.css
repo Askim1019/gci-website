@@ -211,7 +211,7 @@
 	text-align: center;
 }
 
-.service-content h2 {
+.service-content h1 {
 	margin-top: 20px;
 }
 
@@ -237,6 +237,9 @@
 
 #products {
 	background: rgba(21, 75, 163, 0.5);
+}
+
+#products-list {
 }
 
 @media (min-width: 992px) {
