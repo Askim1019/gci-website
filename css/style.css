@@ -7,7 +7,7 @@
 
 .homebg {
   padding-top: 54px;
-  background-image: url("../images/background.jpg");
+ /*	background-image: url("../images/background.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,8 +62,7 @@
 }
 
 .service-header {
-	color: white;
-	
+	color: white;	
 }
 
 
@@ -165,7 +164,7 @@
 }
 
 .card-body p {
-	color: white;
+	color: black;
 	margin-top: 20px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -173,9 +172,11 @@
 
 /* Company divs linked to their information */
 .separator {
-	background-color: rgba(58, 59, 61, 0.85);
+	background-color: /* rgba(58, 59, 61, 0.85) */ blue;
 	font-size: 25px;
 	font-weight: bold;
+	color: white;
+	font-family: 'Russo One', sans-serif;
 }
 
 .card-body h3 {
@@ -193,7 +194,7 @@
 }
 
 .card-title {
-	color: white;
+	color: black;
 	font-family: 'Russo One', sans-serif;
 }
 
@@ -214,11 +215,11 @@
 }
 
 .panel {
-	background: rgba(58, 59, 61, 0.85);
+	background: /* rgba(58, 59, 61, 0.85) */ white;
 }
 
 .panel:hover {
-	background: rgba(167, 171, 178, 0.75);
+	background: rgba(167, 171, 178, 0.45);
 }
 
 
