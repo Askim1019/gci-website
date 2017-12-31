@@ -139,24 +139,17 @@
 	padding: 25px;
 }
 
-#products-list {
-	background: white;
+.card-header {
+	text-align: center;
+	width: 100%;
 }
 
-.product-columns {
-	border: solid 1px black;
-	font-size: 20px;
-	background: rgba(114, 131, 168,0.7);
-	margin-top: 35px
-
-}
-
-.product-columns li {
-	font-size: 20px;
+.products-card-div {
+	margin-top: 120px;
 }
 
 footer {
-	margin-top: 25px;
+	margin-top: 100px;
 }
 
 /* Partner Page Summary next to picture */
@@ -169,6 +162,9 @@ footer {
 	font-family: 'Roboto', sans-serif;
 }
 
+.card-body li {
+	list-style-type: none;
+}
 /* Company divs linked to their information */
 .separator {
 	background-color: /* rgba(58, 59, 61, 0.85) */#044587;
@@ -186,7 +182,6 @@ footer {
 .card-footer {
 	text-align: center;
 	width: 100%;
-
 }
 
 .card-footer a {
@@ -197,6 +192,8 @@ footer {
 	color: black;
 	font-family: 'Russo One', sans-serif;
 }
+
+
 
 .partners-list {
 	list-style-type: none;
