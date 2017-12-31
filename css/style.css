@@ -1,7 +1,8 @@
 
-.testing {
-	border: 5px solid red;
-} 
+* {
+	margin: 0;
+	padding: 0;
+}
 
 /* Body backgrounds for each page */
 
@@ -21,10 +22,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 880px;
-	position: relative;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-position: center;
 }
 
 
@@ -57,7 +58,7 @@
 .service-div {
 	background: rgba(38, 40, 43, 0.2);
 	margin: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -68,10 +69,11 @@
 
 .home-content {
 	text-align: center;
+	height: auto;
 }
 
 .home-content h1 {
-	margin-top: 20px;
+	margin-top: 0px;
 	font-family: 'Russo One', sans-serif;
 }
 
@@ -91,27 +93,34 @@
 }
 
 #history {
-	background: rgba(2, 95, 234,0.5);
+	background: white;
 }
 
-#history p {
-	margin: 30px auto;
+#history h1 {
+	background: rgba(114, 131, 168,0.7);
+	padding: 25px;
+}
+
+#history li {
+	margin: 20px auto;
 	text-align: center;
 	color: black;
-	font-family: 'Russo One', sans-serif;
-	font-size: 22px;
-	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
 
 
 .history-category {
-	color: white;
-	font-size: 25px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Russo One', sans-serif;
 	text-decoration: underline;
 }
 
-#service-offer {
 
+#service-offer h1 {
+	background: rgba(114, 131, 168,0.7);
+	padding: 25px;
 }
 
 .gciname {
@@ -122,7 +131,12 @@
 }
 
 #products {
-	background: rgba(2, 95, 234, 0.3);
+	background: white;
+}
+
+#products h1 {
+	background: rgba(114, 131, 168,0.7);
+	padding: 25px;
 }
 
 #products-list {
@@ -130,14 +144,20 @@
 }
 
 .product-columns {
-	border: solid 2px black;
-	font-size: 30px;
+	border: solid 1px black;
+	font-size: 20px;
+	background: rgba(114, 131, 168,0.7);
+	margin-top: 35px
+
 }
 
 .product-columns li {
-	font-size: 15px;
+	font-size: 20px;
 }
 
+footer {
+	margin-top: 25px;
+}
 
 /* Partner Page Summary next to picture */
 
@@ -152,10 +172,10 @@
 /* Company divs linked to their information */
 .separator {
 	background-color: /* rgba(58, 59, 61, 0.85) */#044587;
-	font-size: 25px;
+	font-size: 35px;
 	font-weight: bold;
 	color: white;
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .card-body h3 {
@@ -166,6 +186,7 @@
 .card-footer {
 	text-align: center;
 	width: 100%;
+
 }
 
 .card-footer a {
@@ -184,7 +205,7 @@
 }
 
 .divpanel {
-	height: 350px;
+	height: auto;
 }
 
 .divpanel:hover {
@@ -195,6 +216,7 @@
 
 .panel {
 	background: /* rgba(58, 59, 61, 0.85) */ white;
+	height: auto;
 }
 
 .panel:hover {
