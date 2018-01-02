@@ -55,6 +55,16 @@
 
 
 /* Start of home page */
+
+.scrollBtn {
+	background: rgba(100, 104, 104, 0.3);
+	padding: 10px;
+	border: none;
+	border-radius: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+} 
+
 .scrollbutton-div {
 	width: 10%;
 	height: 10%;
@@ -78,20 +88,19 @@
 	height: 10%;
 	position: absolute;
 	top: 90%;
-	left: 50%;
-	margin-bottom: 30px;
+	left: 47%;
 }
 
-.scrollBtn {
-	background: rgba(100, 104, 104, 0.3);
-	padding: 10px;
-	border: none;
-	border-radius: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
-} 
+.scrollbutton-div4 {
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	top: 1%;
+	left: 51%;
+}
 
-#scrolldown-btn:hover {
+
+.scrollBtn:hover {
 	background-color: #a6adad;
 }
 
@@ -174,12 +183,12 @@
 
 #service-offer p {
 	padding-top: 54px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 }
 
 .logo-container {
@@ -220,6 +229,10 @@
 #products h1 {
 	background: rgba(114, 131, 168,0.7);
 	padding: 25px;
+}
+
+#products-list {
+	position: relative;
 }
 
 .card-header {
