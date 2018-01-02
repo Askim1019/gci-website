@@ -61,9 +61,19 @@
 	position: absolute;
 	top: 90%;
 	left: 50%;
+	margin-bottom: 30px;
 }
 
-#scrolldown-btn {
+.scrollbutton-div2 {
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-bottom: 30px;
+}
+
+.scrollBtn {
 	background: rgba(100, 104, 104, 0.3);
 	padding: 10px;
 	border: none;
@@ -80,7 +90,10 @@
 	color: white;
 }
 
-
+.profilediv {
+	position: relative;
+	padding-bottom: 100px;
+}
 
 
 .service-div {
