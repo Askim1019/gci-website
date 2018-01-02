@@ -73,6 +73,15 @@
 	margin-bottom: 30px;
 }
 
+.scrollbutton-div3 {
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-bottom: 30px;
+}
+
 .scrollBtn {
 	background: rgba(100, 104, 104, 0.3);
 	padding: 10px;
@@ -100,7 +109,6 @@
 	background: rgba(38, 40, 43, 0.5);
 	margin: auto;
   	width: 100%;
-  	padding: 10px;
 }
 
 .service-header {
@@ -178,6 +186,8 @@
 	margin: 50px auto;
 	text-align: center;
 	border: solid 3px blue;
+	position: relative;
+	padding-bottom: 100px;
 }
 
 .logo-container h3 {
