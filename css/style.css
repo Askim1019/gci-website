@@ -320,9 +320,11 @@ footer {
 	background: rgba(167, 171, 178, 0.45);
 }
 
+/* Contact page styling */
 
-/* End of Home page styling */
-
+.contactdiv {
+	margin-top: 50px;
+}
 
 @media (min-width: 992px) {
   body {
