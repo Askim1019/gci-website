@@ -21,5 +21,11 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });
+
+     $('#scrolldown-btn5').click(function(){
+       $('html, body').animate({
+           scrollTop: $('.logo-container').offset().top
+        }, 1000);
+    });
     
 });
