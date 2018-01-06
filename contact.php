@@ -17,7 +17,7 @@ $subject = 'New message from potential customer';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = header("Location:http://gcius.net/success.html");
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
