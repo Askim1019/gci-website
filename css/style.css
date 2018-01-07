@@ -334,25 +334,17 @@ footer {
 	background: rgba(167, 171, 178, 0.45);
 }
 
-.companyinfo h1 {
+.companyinfo {
 	text-align: center;
-}
-
-.companyinfo img {
-	justify-content: center;
 }
 
 .companyinfo li {
 	list-style-type: none;
 }
 
-
-
-
-
-
-
-
+.companyinfo a {
+	font-size: 25px;
+}
 
 
 /* Contact page styling */
