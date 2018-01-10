@@ -344,7 +344,8 @@ footer {
 }
 
 .companyinfo a {
-	font-size: 25px;
+	text-align: center;
+	font-weight: bolder;
 }
 
 
