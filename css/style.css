@@ -137,6 +137,7 @@
 }
 
 
+
 .home-content {
 	text-align: center;
 	height: auto;
@@ -334,25 +335,18 @@ footer {
 	background: rgba(167, 171, 178, 0.45);
 }
 
-.companyinfo h1 {
+.companyinfo {
 	text-align: center;
-}
-
-.companyinfo img {
-	justify-content: center;
 }
 
 .companyinfo li {
 	list-style-type: none;
 }
 
-
-
-
-
-
-
-
+.companyinfo a {
+	text-align: center;
+	font-weight: bolder;
+}
 
 
 /* Contact page styling */
@@ -364,6 +358,22 @@ footer {
 .contactmessage {
 	margin-top: 100px;
 }
+
+.contactmessage li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.successdiv {
+	text-align: center;
+}
+
+.successdiv a {
+	margin-top: 100px;
+	padding: 20px;
+	font-size: 30px;
+}
+
 
 @media (min-width: 992px) {
   body {
